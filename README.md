@@ -31,6 +31,11 @@ Locally:
 kpm install_java_plugin hyperswitch --from-source-file target/hyperswitch-killbill-plugin-*-SNAPSHOT.jar --destination /var/tmp/bundles
 ```
 
+If you are using Docker for killbill, the destination will be `/var/lib/killbill/bundles`: 
+```
+kpm install_java_plugin hyperswitch --from-source-file target/hyperswitch-killbill-plugin-*-SNAPSHOT.jar --destination /var/lib/killbill/bundles
+```
+
 or 
 find latest version of hyperswitch plugin [here](https://central.sonatype.com/artifact/io.github.juspay.hyperswitchplugin/hyperswitch-killbill-plugin/overview)
 
